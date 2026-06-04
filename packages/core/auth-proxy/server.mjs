@@ -227,6 +227,7 @@ async function initializeVerificationKey() {
     console.log('✅ Privy verification key loaded');
   } catch (error) {
     console.error('❌ Failed to load Privy verification key:', error.message);
+    console.error('   Key preview (first 60 chars):', CONFIG.privyVerificationKey.slice(0, 60) + '...');
     process.exit(1);
   }
 }
