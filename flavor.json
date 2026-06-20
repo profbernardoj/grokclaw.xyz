@@ -1,10 +1,9 @@
 {
-  "name": "Morpheus Skill",
-  "slug": "morpheus-skill",
-  "domain": "morpheusclaw.com",
-  "description": "The canonical Morpheus decentralized AI agent skill for OpenClaw",
-  "remote": "https://github.com/profbernardoj/morpheus-skill.git",
+  "name": "Grok Claw",
+  "slug": "grokclaw",
+  "domain": "grokclaw.xyz",
+  "description": "AI agent powered by Grok models",
+  "remote": "https://github.com/profbernardoj/grokclaw.xyz.git",
   "defaultModel": "glm-5",
-  "persona": "Morpheus decentralized AI assistant",
-  "canonical": true
+  "persona": "Grok-focused AI assistant"
 }
